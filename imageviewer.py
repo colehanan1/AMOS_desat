@@ -3,7 +3,7 @@ import nibabel as nib
 import numpy as np
 
 # Load the .nii.gz file
-file_path = ("/Users/colehanan/Desktop/amos22/labelsTr/amos_0530.nii.gz")
+file_path = ("/Users/colehanan/Desktop/processed_images1/amos_0507_region_4_.nii.gz")
 img = nib.load(file_path)
 
 # Convert the image data to a NumPy array
